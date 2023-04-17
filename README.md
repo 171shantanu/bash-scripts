@@ -11,4 +11,5 @@ backup.sh:  A general script that backups a specfied source diectory to destinat
 install-jenkins: This script installs jenkins on an ubuntu server.
 
 install-docker: This script checks the package manager and then installs docker on the server accordingly.
-                You will need to add the users into the docker group after the installation to give them permissions.
+                You will need replace the "user_name" in the "sudo usermod -a -G docker user_name" command,
+                this command adds the users into the docker group after the installation to give them permissions.
