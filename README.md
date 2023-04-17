@@ -7,3 +7,5 @@ logfile-compress: Compresses the log files in a certain directory.
 
 backup.sh:  A general script that backups a specfied source diectory to destination directory.
             How to use the script: ./backup.sh <source_dir_path> <target_dir_path>
+
+install-jenkins: This script installs jenkins on an ubuntu server.
