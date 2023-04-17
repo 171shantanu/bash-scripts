@@ -23,4 +23,6 @@ elif command -v apt &> /dev/null; then
 else
   echo "Unknown package manager"
 fi
-    
+
+# Adding the user to the docker group for getting the permissions
+sudo usermod -a -G docker user_name
