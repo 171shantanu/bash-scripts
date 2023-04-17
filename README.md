@@ -10,4 +10,5 @@ backup.sh:  A general script that backups a specfied source diectory to destinat
 
 install-jenkins: This script installs jenkins on an ubuntu server.
 
-install-jenkins: This script checks the package manager and then installs docker on the server accordingly.
+install-docker: This script checks the package manager and then installs docker on the server accordingly.
+                You will need to add the users into the docker group after the installation to give them permissions.
